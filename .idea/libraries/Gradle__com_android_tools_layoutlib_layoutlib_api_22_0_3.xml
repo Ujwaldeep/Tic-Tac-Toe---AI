@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.tools.layoutlib:layoutlib-api:22.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.0.3/e0ca9633c78f8fb3d1ef247e15c8803a0ad8a0de/layoutlib-api-22.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.0.3/d8976333ca0fd81cac0b4c885420be6d7c8bcec2/layoutlib-api-22.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.layoutlib/layoutlib-api/22.0.3/1176e7105256ba330de73aad0d31587d0a84c2e2/layoutlib-api-22.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

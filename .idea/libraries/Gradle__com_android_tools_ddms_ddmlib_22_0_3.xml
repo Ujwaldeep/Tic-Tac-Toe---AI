@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.android.tools.ddms:ddmlib:22.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.0.3/1e3625c445f4ac6a67edd9093acd3addafee04af/ddmlib-22.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.0.3/fafd547fd5e28e526f81b39baeae01339f59046d/ddmlib-22.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.tools.ddms/ddmlib/22.0.3/9f3425c5bb85e71b4e20034e06f071e3017c4b85/ddmlib-22.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
