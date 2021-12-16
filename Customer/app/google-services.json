@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "513000677301",
+    "firebase_url": "https://grocery-189ab-default-rtdb.firebaseio.com",
+    "project_id": "grocery-189ab",
+    "storage_bucket": "grocery-189ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513000677301:android:903284ecd4c2e32b64c3fc",
+        "android_client_info": {
+          "package_name": "com.example.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513000677301-83v54kc3g5jmera8ai3j9j6lgbjevcuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBppenEk3jL1nl0ZdATPYz10MiDpffi874"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513000677301-83v54kc3g5jmera8ai3j9j6lgbjevcuv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

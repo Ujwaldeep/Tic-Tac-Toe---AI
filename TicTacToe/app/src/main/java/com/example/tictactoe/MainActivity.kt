@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         restart.setOnClickListener{
             board= Board()
             textView_result.text =""
+            restart.isEnabled = false
+            restart.setBackgroundColor(ContextCompat.getColor(this@MainActivity,R.color.background))
+
             mapBoardToUi()
         }
     }
@@ -66,6 +69,7 @@ class MainActivity : AppCompatActivity() {
             }
 
         }
+        restart.isEnabled = false
     }
 
     inner class CellClickListener(private val i:Int,private  val j:Int): View.OnClickListener{
@@ -83,9 +87,24 @@ class MainActivity : AppCompatActivity() {
             }
 
             when{
-                board.hasComputerWon()->textView_result.text="Computer Won!"
-                board.hasPlayerWon()->textView_result.text="Player Won!"
-                board.isGameOver->textView_result.text="Draw!"
+                board.hasComputerWon()-> {
+                    textView_result.text = "Computer Won!"
+                    restart.isEnabled=true
+                    restart.setBackgroundColor(ContextCompat.getColor(this@MainActivity,R.color.colorPrimary))
+
+                }
+                board.hasPlayerWon()-> {
+                    textView_result.text = "Player Won!"
+                    restart.isEnabled=true
+                    restart.setBackgroundColor(ContextCompat.getColor(this@MainActivity,R.color.colorPrimary))
+
+                }
+                board.isGameOver-> {
+                    textView_result.text = "Draw!"
+                    restart.isEnabled=true
+                    restart.setBackgroundColor(ContextCompat.getColor(this@MainActivity,R.color.colorPrimary))
+                }
+
             }
 
         }
